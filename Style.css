@@ -1,0 +1,147 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #a3a3a3;
+}
+
+/* Hero Section */
+.hero {
+    background: #282828;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero .btn {
+    background-color: #ff7f50;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e56a3b;
+}
+
+/* About Section */
+.about, .skills, .contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.about h2, .skills h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.skills ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f4f4f4;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project .btn {
+    margin-top: 10px;
+    background-color: #ff7f50;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project .btn:hover {
+    background-color: #e56a3b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
